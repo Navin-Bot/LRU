@@ -1,8 +1,6 @@
 #include "CLass_LRU.h"
 
 
-
-
 int main()
 {
 
@@ -10,13 +8,14 @@ int main()
     SetConsoleOutputCP(1251);
 
     int size_hash;
-    cout << "Ðàçìåð êýøà?" << endl << ">_";
+    cout << "ÃÃ Ã§Ã¬Ã¥Ã° ÃªÃ½Ã¸Ã ?" << endl << ">_";
     do {
         cin >> size_hash;
     } while (size_hash <= 0);
 
-    LRUCache ca(size_hash);//ðàçìåð êýøà
-
+    LRUCache ca(size_hash);//Ã°Ã Ã§Ã¬Ã¥Ã° ÃªÃ½Ã¸Ã 
+    
+    cout << "Ð—Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ðµ ÐºÑÑˆÐ°..." << endl;
     int num;
     while (true) {
         cout << endl;
